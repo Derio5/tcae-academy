@@ -8,7 +8,7 @@
       "C": "Por el titular de la Consejería de Economía y Hacienda.",
       "D": "Por el titular de la Consejería de Economía y Administraciones Públicas."
     },
-    "correcta": ""
+    "correcta": "c"
   },
   {
     "id": 2,
@@ -19,7 +19,7 @@
       "C": "2/2001, de 21 de diciembre.",
       "D": "12/2001, de 21 de diciembre."
     },
-    "correcta": ""
+    "correcta": "a"
   },
   {
     "id": 3,
@@ -30,7 +30,7 @@
       "C": "Zonas de Salud.",
       "D": "Todas son correctas."
     },
-    "correcta": ""
+    "correcta": "d"
   },
   {
     "id": 4,
@@ -41,7 +41,7 @@
       "C": "A la Consejería de Sanidad.",
       "D": "Al Consejo Interterritorial del Sistema Nacional de Salud."
     },
-    "correcta": ""
+    "correcta": "a"
   },
   {
     "id": 5,
@@ -52,7 +52,7 @@
       "C": "A la Consejería de Sanidad.",
       "D": "Al Instituto de Salud Pública."
     },
-    "correcta": ""
+    "correcta": "b"
   },
   {
     "id": 6,
@@ -63,7 +63,7 @@
       "C": "El establecimiento de normas y criterios de actuación en cuanto a la acreditación de centros y servicios.",
       "D": "El cese del Director General del Servicio Madrileño de Salud."
     },
-    "correcta": ""
+    "correcta": "c"
   },
   {
     "id": 7,
@@ -74,7 +74,7 @@
       "C": "Productos farmacéuticos.",
       "D": "Promoción de la investigación y estudios sanitarios."
     },
-    "correcta": ""
+    "correcta": "a"
   },
   {
     "id": 8,
@@ -85,7 +85,7 @@
       "C": "El establecimiento de criterios de planificación sanitaria.",
       "D": "El control directo de la publicidad sanitaria en los casos y forma reglamentariamente establecidos."
     },
-    "correcta": ""
+    "correcta": "c"
   },
   {
     "id": 9,
@@ -96,7 +96,7 @@
       "C": "Con cargo a las prestaciones personales que los Ayuntamientos con población superior a 5.000 habitantes podrán imponer en materia sanitaria.",
       "D": "Con cargo a las partidas consignadas en los presupuestos de los Ayuntamientos destinadas a atender el gasto derivado de sus competencias sanitarias."
     },
-    "correcta": ""
+    "correcta": "c"
   },
   {
     "id": 10,
@@ -107,7 +107,7 @@
       "C": "Un principio general en la Administración Sanitaria.",
       "D": "Un derecho y un deber."
     },
-    "correcta": ""
+    "correcta": "d"
   },
   {
     "id": 11,
@@ -118,7 +118,7 @@
       "C": "Libre designación o convocatoria pública.",
       "D": "Ninguna es correcta."
     },
-    "correcta": ""
+    "correcta": "c"
   },
   {
     "id": 12,
@@ -129,7 +129,7 @@
       "C": "El Presidente de la Asamblea de Madrid.",
       "D": "El Director General de Servicios Jurídicos."
     },
-    "correcta": ""
+    "correcta": "d"
   },
   {
     "id": 13,
@@ -140,7 +140,7 @@
       "C": "Ejercen acciones en vía jurisdiccional en representación de aquellas.",
       "D": "Todas son correctas."
     },
-    "correcta": ""
+    "correcta": "d"
   },
   {
     "id": 14,
@@ -151,7 +151,7 @@
       "C": "El Consejero, con el límite previsto en la Ley de Presupuestos de la Comunidad.",
       "D": "El Presidente de la Comunidad Autónoma."
     },
-    "correcta": ""
+    "correcta": "c"
   },
   {
     "id": 15,
@@ -162,7 +162,7 @@
       "C": "Relaciones de puestos de trabajo.",
       "D": "Decreto del Director General."
     },
-    "correcta": ""
+    "correcta": "a"
   },
   {
     "id": 16,
@@ -173,7 +173,7 @@
       "C": "El Instituto de Salud Pública de la Comunidad de Madrid.",
       "D": "Formación e investigación sanitaria."
     },
-    "correcta": ""
+    "correcta": "c"
   },
   {
     "id": 17,
@@ -184,7 +184,7 @@
       "C": "Todos los Consejeros, mancomunadamente.",
       "D": "No existe propuesta; lo aprueba el propio Servicio Madrileño de Salud."
     },
-    "correcta": ""
+    "correcta": "d"
   },
   {
     "id": 18,
@@ -195,7 +195,7 @@
       "C": "El Instituto Nacional de la Salud.",
       "D": "El Instituto de Información Sanitaria."
     },
-    "correcta": ""
+    "correcta": "b"
   },
   {
     "id": 19,
@@ -206,7 +206,7 @@
       "C": "44/2003, de 21 de noviembre.",
       "D": "41/2003, de 14 de noviembre."
     },
-    "correcta": ""
+    "correcta": "c"
   },
   {
     "id": 20,
@@ -217,7 +217,7 @@
       "C": "Consejo Interterritorial del Sistema Nacional de Salud.",
       "D": "Sistema Nacional de la Salud."
     },
-    "correcta": ""
+    "correcta": "c"
   },
   {
     "id": 21,
@@ -228,7 +228,7 @@
       "C": "Atención primaria.",
       "D": "Atención socio-sanitaria."
     },
-    "correcta": ""
+    "correcta": "c"
   },
   {
     "id": 22,
@@ -239,7 +239,7 @@
       "C": "Por causas exclusivamente clínicas, cuando no fuera posible el traslado por medios ordinarios de transporte.",
       "D": "Ninguna es correcta."
     },
-    "correcta": ""
+    "correcta": "a"
   },
   {
     "id": 23,
@@ -250,7 +250,7 @@
       "C": "Del principio de igualdad recogido en el artículo 15 de la Constitución.",
       "D": "Ninguna es correcta."
     },
-    "correcta": ""
+    "correcta": "c"
   },
   {
     "id": 24,
@@ -261,7 +261,7 @@
       "C": "Un Servicio de Salud.",
       "D": "Un Sistema Autónomo de Salud."
     },
-    "correcta": ""
+    "correcta": "b"
   },
   {
     "id": 25,
@@ -272,6 +272,6 @@
       "C": "La salida del centro sanitario.",
       "D": "Cualquiera de las tres alternativas anteriores."
     },
-    "correcta": ""
+    "correcta": "b"
   }
 ]
