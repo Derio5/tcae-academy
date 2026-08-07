@@ -1,4 +1,4 @@
-let preguntas=[],i=0,a=0;async function iniciar(){preguntas=await fetch(document.getElementById('tema').value).then(r=>r.json());i=0;a=0;mostrar()}function mostrar(){let p=preguntas[i],h=`<h2>${i+1}/${preguntas.length}</h2><p>${p.pregunta}</p>`;for(let k of ['A','B','C','D'])h+=`<button onclick="resp('${k}')">${k}. ${p.opciones[k]}</button><br>`;app.innerHTML=h}function resp(r){if(r===preguntas[i].correcta)a++;i++;if(i>=preguntas.length)app.innerHTML=`<h2>Nota ${(a/preguntas.length*10).toFixed(1)}</h2>`;else mostrar()}const boton = document.getElementById("btnComenzar");
+const boton = document.getElementById("btnComenzar");
 const contenedor = document.getElementById("app");
 
 let preguntas = [];
