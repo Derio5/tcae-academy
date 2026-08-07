@@ -1,72 +1,277 @@
-17.
-
-El órgano dependiente del Ministerio de Sanidad, Servicios Sociales e Igualdad que desarrollará las actividades necesarias para el funcionamiento del sistema de información sanitaria, es:
-
-a) El Consejo Interterritorial del Sistema Nacional de Salud.
-b) El Servicio de Información al Usuario.
-c) El Instituto Nacional de la Salud.
-d) El Instituto de Información Sanitaria.
-18.
-
-La Ley básica reguladora de la autonomía del paciente y derechos y obligaciones en materia de información y documentación clínica, es la Ley:
-
-a) 16/2003, de 28 de mayo.
-b) 41/2002, de 14 de noviembre.
-c) 44/2003, de 21 de noviembre.
-d) 41/2003, de 14 de noviembre.
-19.
-
-El órgano permanente de comunicación e información de los distintos Servicios de Salud, entre ellos y con la Administración estatal, se denomina:
-
-a) INSALUD.
-b) Ministerio de Sanidad, Servicios Sociales e Igualdad.
-c) Consejo Interterritorial del Sistema Nacional de Salud.
-d) Sistema Nacional de la Salud.
-20.
-
-El nivel básico e inicial de atención sanitaria, se denomina:
-
-a) Atención especializada.
-b) Atención esencial.
-c) Atención primaria.
-d) Atención socio-sanitaria.
-21.
-
-La prestación de transporte sanitario consiste en desplazamiento de enfermos:
-
-a) Independientemente de la posibilidad de traslado por medios ordinarios de transporte.
-b) Por cualquier causa, cuando no fuera posible el traslado por medios ordinarios de transporte.
-c) Por causas exclusivamente clínicas, cuando no fuera posible el traslado por medios ordinarios de transporte.
-d) Ninguna es correcta.
-22.
-
-El acceso a las prestaciones sanitarias y sus servicios en condiciones de igualdad efectiva, es consecuencia:
-
-a) Del principio de igualdad recogido en el artículo 14 de la Constitución.
-b) Del principio de igualdad recogido en la Sección I del Capítulo II del Título I de la Constitución.
-c) Del principio de igualdad recogido en el artículo 15 de la Constitución.
-d) Ninguna es correcta.
-23.
-
-Según la Ley General de Sanidad, en cada Comunidad Autónoma se constituirá:
-
-a) Un Área de Salud.
-b) Una Zona Básica de Salud.
-c) Un Servicio de Salud.
-d) Un Sistema Autónomo de Salud.
-24.
-
-Según la Ley General de Sanidad, ¿sobre quién recae el peso de la organización sanitaria?
-
-a) Sobre los poderes públicos.
-b) Sobre la Administración de las Comunidades Autónomas.
-c) Sobre la Administración General del Estado.
-d) Sobre las Administraciones Públicas.
-25.
-
-Según la Ley 41/2002, en caso de no aceptar el paciente el tratamiento prescrito, se le propondrá:
-
-a) Un tratamiento alternativo.
-b) La firma del alta voluntaria.
-c) La salida del centro sanitario.
-d) Cualquiera de las tres alternativas anteriores.
+[
+  {
+    "id": 1,
+    "pregunta": "La denominación de las unidades administrativas inferiores a una Subdirección se establecerá:",
+    "opciones": {
+      "A": "Por Decreto del Gobierno, a propuesta del Consejero correspondiente.",
+      "B": "Por la relación de puestos de trabajo.",
+      "C": "Por el titular de la Consejería de Economía y Hacienda.",
+      "D": "Por el titular de la Consejería de Economía y Administraciones Públicas."
+    },
+    "correcta": ""
+  },
+  {
+    "id": 2,
+    "pregunta": "La Ley de Ordenación Sanitaria de la Comunidad de Madrid, es de fecha:",
+    "opciones": {
+      "A": "12/2001, de 21 de noviembre.",
+      "B": "14/86, de 14 de abril.",
+      "C": "2/2001, de 21 de diciembre.",
+      "D": "12/2001, de 21 de diciembre."
+    },
+    "correcta": ""
+  },
+  {
+    "id": 3,
+    "pregunta": "Conforme a la Ley de Ordenación Sanitaria, el Sistema Sanitario de la Comunidad de Madrid se organiza en:",
+    "opciones": {
+      "A": "Área Sanitaria Única.",
+      "B": "Áreas de Salud.",
+      "C": "Zonas de Salud.",
+      "D": "Todas son correctas."
+    },
+    "correcta": ""
+  },
+  {
+    "id": 4,
+    "pregunta": "La aprobación de la estructura orgánica del Servicio Madrileño de Salud corresponde:",
+    "opciones": {
+      "A": "Al Sistema Nacional de Salud.",
+      "B": "Al Gobierno de la Comunidad de Madrid.",
+      "C": "A la Consejería de Sanidad.",
+      "D": "Al Consejo Interterritorial del Sistema Nacional de Salud."
+    },
+    "correcta": ""
+  },
+  {
+    "id": 5,
+    "pregunta": "La elevación al Consejo de Gobierno de la propuesta de estructura orgánica del Servicio Madrileño de Salud corresponde:",
+    "opciones": {
+      "A": "Al propio Gobierno de la Comunidad.",
+      "B": "Al Ministerio de Sanidad, Servicios Sociales e Igualdad.",
+      "C": "A la Consejería de Sanidad.",
+      "D": "Al Instituto de Salud Pública."
+    },
+    "correcta": ""
+  },
+  {
+    "id": 6,
+    "pregunta": "No le corresponde a la Consejería de Sanidad:",
+    "opciones": {
+      "A": "El ejercicio de la autoridad sanitaria.",
+      "B": "La aprobación del Plan de Salud.",
+      "C": "El establecimiento de normas y criterios de actuación en cuanto a la acreditación de centros y servicios.",
+      "D": "El cese del Director General del Servicio Madrileño de Salud."
+    },
+    "correcta": ""
+  },
+  {
+    "id": 7,
+    "pregunta": "Las Corporaciones Locales tendrán competencias en sanidad en materia de:",
+    "opciones": {
+      "A": "Control sanitario y salubridad.",
+      "B": "Coordinación de la sanidad.",
+      "C": "Productos farmacéuticos.",
+      "D": "Promoción de la investigación y estudios sanitarios."
+    },
+    "correcta": ""
+  },
+  {
+    "id": 8,
+    "pregunta": "La autoridad sanitaria garantizará el derecho a recibir información sanitaria por medio de:",
+    "opciones": {
+      "A": "El Servicio de Atención al Paciente.",
+      "B": "La Oficina de Usuarios y Consumidores.",
+      "C": "El establecimiento de criterios de planificación sanitaria.",
+      "D": "El control directo de la publicidad sanitaria en los casos y forma reglamentariamente establecidos."
+    },
+    "correcta": ""
+  },
+  {
+    "id": 9,
+    "pregunta": "La financiación del dispositivo sanitario y las prestaciones sanitarias derivadas del Sistema Nacional de Salud no se llevará a cabo:",
+    "opciones": {
+      "A": "Con cargo a los recursos que le puedan corresponder por la participación de la Comunidad de Madrid en los Presupuestos Generales del Estado.",
+      "B": "Con cargo a los rendimientos obtenidos de los fondos y tributos cedidos total o parcialmente por el Estado a la Comunidad de Madrid para fines sanitarios.",
+      "C": "Con cargo a las prestaciones personales que los Ayuntamientos con población superior a 5.000 habitantes podrán imponer en materia sanitaria.",
+      "D": "Con cargo a las partidas consignadas en los presupuestos de los Ayuntamientos destinadas a atender el gasto derivado de sus competencias sanitarias."
+    },
+    "correcta": ""
+  },
+  {
+    "id": 10,
+    "pregunta": "Utilizar las instalaciones sanitarias de forma adecuada para que se mantengan en condiciones de habitabilidad constituye:",
+    "opciones": {
+      "A": "Un deber de los ciudadanos.",
+      "B": "Un derecho de los ciudadanos.",
+      "C": "Un principio general en la Administración Sanitaria.",
+      "D": "Un derecho y un deber."
+    },
+    "correcta": ""
+  },
+  {
+    "id": 11,
+    "pregunta": "La provisión de puestos de trabajo de Subdirector General se efectuará mediante:",
+    "opciones": {
+      "A": "Libre designación.",
+      "B": "Convocatoria pública.",
+      "C": "Libre designación o convocatoria pública.",
+      "D": "Ninguna es correcta."
+    },
+    "correcta": ""
+  },
+  {
+    "id": 12,
+    "pregunta": "¿Quién asume la Secretaría del Gobierno de la Comunidad?",
+    "opciones": {
+      "A": "El Consejero de Presidencia.",
+      "B": "El Vicepresidente, Consejero de Cultura y Deporte y Portavoz del Gobierno.",
+      "C": "El Presidente de la Asamblea de Madrid.",
+      "D": "El Director General de Servicios Jurídicos."
+    },
+    "correcta": ""
+  },
+  {
+    "id": 13,
+    "pregunta": "Los Secretarios Generales Técnicos de las Consejerías:",
+    "opciones": {
+      "A": "Certificarán todos los actos que sean atribución específica del Consejero.",
+      "B": "Formularán el anteproyecto de Presupuesto anual de cada Consejería.",
+      "C": "Ejercen acciones en vía jurisdiccional en representación de aquellas.",
+      "D": "Todas son correctas."
+    },
+    "correcta": ""
+  },
+  {
+    "id": 14,
+    "pregunta": "¿Quién resuelve sobre enajenaciones de bienes afectos a una Consejería?",
+    "opciones": {
+      "A": "El propio Consejero, junto con el Consejero de Economía y Hacienda.",
+      "B": "El Consejero, con los límites que se fijen legal o reglamentariamente.",
+      "C": "El Consejero, con el límite previsto en la Ley de Presupuestos de la Comunidad.",
+      "D": "El Presidente de la Comunidad Autónoma."
+    },
+    "correcta": ""
+  },
+  {
+    "id": 15,
+    "pregunta": "En la Administración Autonómica, las unidades administrativas inferiores a Subdirección General se establecen mediante:",
+    "opciones": {
+      "A": "Ley orgánica.",
+      "B": "Ley ordinaria.",
+      "C": "Relaciones de puestos de trabajo.",
+      "D": "Decreto del Director General."
+    },
+    "correcta": ""
+  },
+  {
+    "id": 16,
+    "pregunta": "¿Qué regula el Título II de la Ley de Ordenación Sanitaria de la Comunidad de Madrid?",
+    "opciones": {
+      "A": "El Sistema Sanitario de la Comunidad de Madrid.",
+      "B": "El Servicio Madrileño de Salud.",
+      "C": "El Instituto de Salud Pública de la Comunidad de Madrid.",
+      "D": "Formación e investigación sanitaria."
+    },
+    "correcta": ""
+  },
+  {
+    "id": 17,
+    "pregunta": "La aprobación del Plan de Servicios propuesto por el Servicio Madrileño de Salud es competencia de:",
+    "opciones": {
+      "A": "La Presidencia de la Comunidad.",
+      "B": "La Consejería de Sanidad.",
+      "C": "Todos los Consejeros, mancomunadamente.",
+      "D": "No existe propuesta; lo aprueba el propio Servicio Madrileño de Salud."
+    },
+    "correcta": ""
+  },
+  {
+    "id": 18,
+    "pregunta": "El órgano dependiente del Ministerio de Sanidad, Servicios Sociales e Igualdad que desarrollará las actividades necesarias para el funcionamiento del sistema de información sanitaria, es:",
+    "opciones": {
+      "A": "El Consejo Interterritorial del Sistema Nacional de Salud.",
+      "B": "El Servicio de Información al Usuario.",
+      "C": "El Instituto Nacional de la Salud.",
+      "D": "El Instituto de Información Sanitaria."
+    },
+    "correcta": ""
+  },
+  {
+    "id": 19,
+    "pregunta": "La Ley básica reguladora de la autonomía del paciente y derechos y obligaciones en materia de información y documentación clínica, es la Ley:",
+    "opciones": {
+      "A": "16/2003, de 28 de mayo.",
+      "B": "41/2002, de 14 de noviembre.",
+      "C": "44/2003, de 21 de noviembre.",
+      "D": "41/2003, de 14 de noviembre."
+    },
+    "correcta": ""
+  },
+  {
+    "id": 20,
+    "pregunta": "El órgano permanente de comunicación e información de los distintos Servicios de Salud, entre ellos y con la Administración estatal, se denomina:",
+    "opciones": {
+      "A": "INSALUD.",
+      "B": "Ministerio de Sanidad, Servicios Sociales e Igualdad.",
+      "C": "Consejo Interterritorial del Sistema Nacional de Salud.",
+      "D": "Sistema Nacional de la Salud."
+    },
+    "correcta": ""
+  },
+  {
+    "id": 21,
+    "pregunta": "El nivel básico e inicial de atención sanitaria, se denomina:",
+    "opciones": {
+      "A": "Atención especializada.",
+      "B": "Atención esencial.",
+      "C": "Atención primaria.",
+      "D": "Atención socio-sanitaria."
+    },
+    "correcta": ""
+  },
+  {
+    "id": 22,
+    "pregunta": "La prestación de transporte sanitario consiste en desplazamiento de enfermos:",
+    "opciones": {
+      "A": "Independientemente de la posibilidad de traslado por medios ordinarios de transporte.",
+      "B": "Por cualquier causa, cuando no fuera posible el traslado por medios ordinarios de transporte.",
+      "C": "Por causas exclusivamente clínicas, cuando no fuera posible el traslado por medios ordinarios de transporte.",
+      "D": "Ninguna es correcta."
+    },
+    "correcta": ""
+  },
+  {
+    "id": 23,
+    "pregunta": "El acceso a las prestaciones sanitarias y sus servicios en condiciones de igualdad efectiva, es consecuencia:",
+    "opciones": {
+      "A": "Del principio de igualdad recogido en el artículo 14 de la Constitución.",
+      "B": "Del principio de igualdad recogido en la Sección I del Capítulo II del Título I de la Constitución.",
+      "C": "Del principio de igualdad recogido en el artículo 15 de la Constitución.",
+      "D": "Ninguna es correcta."
+    },
+    "correcta": ""
+  },
+  {
+    "id": 24,
+    "pregunta": "Según la Ley General de Sanidad, en cada Comunidad Autónoma se constituirá:",
+    "opciones": {
+      "A": "Un Área de Salud.",
+      "B": "Una Zona Básica de Salud.",
+      "C": "Un Servicio de Salud.",
+      "D": "Un Sistema Autónomo de Salud."
+    },
+    "correcta": ""
+  },
+  {
+    "id": 25,
+    "pregunta": "Según la Ley 41/2002, en caso de no aceptar el paciente el tratamiento prescrito, se le propondrá:",
+    "opciones": {
+      "A": "Un tratamiento alternativo.",
+      "B": "La firma del alta voluntaria.",
+      "C": "La salida del centro sanitario.",
+      "D": "Cualquiera de las tres alternativas anteriores."
+    },
+    "correcta": ""
+  }
+]
