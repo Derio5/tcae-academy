@@ -1,0 +1,37 @@
+tcae-academy
+
+│
+
+├── index.html
+
+├── style.css
+
+├── app.js
+
+├── manifest.json
+
+├── sw.js
+
+│
+
+├── data
+
+│     ├── tema01.json
+
+│     ├── tema02.json
+
+│     └── tema03.json
+
+│
+
+├── img
+
+│     ├── logo.png
+
+│     └── icon.png
+
+│
+
+└── css
+
+      └── animations.css
