@@ -3,275 +3,176 @@
     "id": 1,
     "pregunta": "La denominación de las unidades administrativas inferiores a una Subdirección se establecerá:",
     "opciones": {
-      "A": "Por Decreto del Gobierno, a propuesta del Consejero correspondiente.",
-      "B": "Por la relación de puestos de trabajo.",
-      "C": "Por el titular de la Consejería de Economía y Hacienda.",
-      "D": "Por el titular de la Consejería de Economía y Administraciones Públicas."
+      "a": "Por Decreto del Gobierno, a propuesta del Consejero correspondiente.",
+      "b": "Por la relación de puestos de trabajo.",
+      "c": "Por el titular de la Consejería de Economía y Hacienda.",
+      "d": "Por el titular de la Consejería de Economía y Administraciones Públicas."
     },
-    "correcta": ""
+    "respuesta": "C"
   },
   {
     "id": 2,
     "pregunta": "La Ley de Ordenación Sanitaria de la Comunidad de Madrid, es de fecha:",
     "opciones": {
-      "A": "12/2001, de 21 de noviembre.",
-      "B": "14/86, de 14 de abril.",
-      "C": "2/2001, de 21 de diciembre.",
-      "D": "12/2001, de 21 de diciembre."
+      "a": "12/2001, de 21 de noviembre.",
+      "b": "14/86, de 14 de abril.",
+      "c": "2/2001, de 21 de diciembre.",
+      "d": "12/2001, de 21 de diciembre."
     },
-    "correcta": ""
+    "respuesta": "D"
   },
   {
     "id": 3,
     "pregunta": "Conforme a la Ley de Ordenación Sanitaria, el Sistema Sanitario de la Comunidad de Madrid se organiza en:",
     "opciones": {
-      "A": "Área Sanitaria Única.",
-      "B": "Áreas de Salud.",
-      "C": "Zonas de Salud.",
-      "D": "Todas son correctas."
+      "a": "Área Sanitaria Única.",
+      "b": "Áreas de Salud.",
+      "c": "Zonas de Salud.",
+      "d": "Todas son correctas."
     },
-    "correcta": ""
+    "respuesta": "A"
   },
   {
     "id": 4,
     "pregunta": "La aprobación de la estructura orgánica del Servicio Madrileño de Salud corresponde:",
     "opciones": {
-      "A": "Al Sistema Nacional de Salud.",
-      "B": "Al Gobierno de la Comunidad de Madrid.",
-      "C": "A la Consejería de Sanidad.",
-      "D": "Al Consejo Interterritorial del Sistema Nacional de Salud."
+      "a": "Al Sistema Nacional de Salud.",
+      "b": "Al Gobierno de la Comunidad de Madrid.",
+      "c": "A la Consejería de Sanidad.",
+      "d": "Al Consejo Interterritorial del Sistema Nacional de Salud."
     },
-    "correcta": ""
+    "respuesta": "B"
   },
   {
     "id": 5,
-    "pregunta": "La elevación al Consejo de Gobierno de la propuesta de estructura orgánica del Servicio Madrileño de Salud corresponde:",
+    "pregunta": "La elevación al Consejo de Gobierno de la propuesta de estructura orgánica del Servicio Madrileño de Salud, corresponde:",
     "opciones": {
-      "A": "Al propio Gobierno de la Comunidad.",
-      "B": "Al Ministerio de Sanidad, Servicios Sociales e Igualdad.",
-      "C": "A la Consejería de Sanidad.",
-      "D": "Al Instituto de Salud Pública."
+      "a": "Al propio Gobierno de la Comunidad.",
+      "b": "Al Ministerio de Sanidad, Servicios Sociales e Igualdad.",
+      "c": "A la Consejería de Sanidad.",
+      "d": "Al Instituto de Salud Pública."
     },
-    "correcta": ""
+    "respuesta": "C"
   },
   {
     "id": 6,
     "pregunta": "No le corresponde a la Consejería de Sanidad:",
     "opciones": {
-      "A": "El ejercicio de la autoridad sanitaria.",
-      "B": "La aprobación del Plan de Salud.",
-      "C": "El establecimiento de normas y criterios de actuación en cuanto a la acreditación de centros y servicios.",
-      "D": "El cese del Director General del Servicio Madrileño de Salud."
+      "a": "El ejercicio de la autoridad sanitaria.",
+      "b": "La aprobación del Plan de Salud.",
+      "c": "El establecimiento de normas y criterios de actuación en cuanto a la acreditación de centros y servicios.",
+      "d": "El cese del Director General del Servicio Madrileño de Salud."
     },
-    "correcta": ""
+    "respuesta": "D"
   },
   {
     "id": 7,
     "pregunta": "Las Corporaciones Locales tendrán competencias en sanidad en materia de:",
     "opciones": {
-      "A": "Control sanitario y salubridad.",
-      "B": "Coordinación de la sanidad.",
-      "C": "Productos farmacéuticos.",
-      "D": "Promoción de la investigación y estudios sanitarios."
+      "a": "Control sanitario y salubridad.",
+      "b": "Coordinación de la sanidad.",
+      "c": "Productos farmacéuticos.",
+      "d": "Promoción de la investigación y estudios sanitarios."
     },
-    "correcta": ""
+    "respuesta": "A"
   },
   {
     "id": 8,
     "pregunta": "La autoridad sanitaria garantizará el derecho a recibir información sanitaria por medio de:",
     "opciones": {
-      "A": "El Servicio de Atención al Paciente.",
-      "B": "La Oficina de Usuarios y Consumidores.",
-      "C": "El establecimiento de criterios de planificación sanitaria.",
-      "D": "El control directo de la publicidad sanitaria en los casos y en la forma que reglamentariamente se determine."
+      "a": "El Servicio de Atención al Paciente.",
+      "b": "La Oficina de Usuarios y Consumidores.",
+      "c": "El establecimiento de criterios de planificación sanitaria.",
+      "d": "El control directo de la publicidad sanitaria en los casos y en la forma que reglamentariamente se determine."
     },
-    "correcta": ""
-  },
-  {
-    "id": 9,
-    "pregunta": "La financiación del dispositivo sanitario y las prestaciones sanitarias derivadas del Sistema Nacional de Salud no se llevará a cabo:",
-    "opciones": {
-      "A": "Con cargo a los recursos que le puedan corresponder por la participación de la Comunidad de Madrid en los Presupuestos Generales del Estado.",
-      "B": "Con cargo a los rendimientos obtenidos de los fondos y tributos cedidos total o parcialmente por el Estado a la Comunidad de Madrid para fines sanitarios.",
-      "C": "Con cargo a las prestaciones personales que los Ayuntamientos con población de derecho superior a 5.000 habitantes podrán imponer en materia sanitaria.",
-      "D": "Con cargo a las partidas consignadas en los presupuestos de los Ayuntamientos de la Comunidad de Madrid que, con carácter suficiente, estén destinadas a atender el gasto que se derive del cumplimiento de las funciones y competencias sanitarias que les correspondan."
-    },
-    "correcta": ""
-  },
-  {
-    "id": 10,
-    "pregunta": "Utilizar las instalaciones sanitarias de forma adecuada a fin de que las mismas se mantengan en todo momento en condiciones de habitabilidad, constituye:",
-    "opciones": {
-      "A": "Un deber de los ciudadanos.",
-      "B": "Un derecho de los ciudadanos.",
-      "C": "Un principio general en la Administración Sanitaria.",
-      "D": "Un derecho y un deber."
-    },
-    "correcta": ""
-  },
-  {
-    "id": 11,
-    "pregunta": "La provisión de puestos de trabajo de Subdirector General se efectuará mediante:",
-    "opciones": {
-      "A": "Libre designación.",
-      "B": "Convocatoria pública.",
-      "C": "Libre designación o convocatoria pública.",
-      "D": "Ninguna es correcta."
-    },
-    "correcta": ""
-  },
-  {
-    "id": 12,
-    "pregunta": "¿Quién asume la Secretaría del Gobierno de la Comunidad?",
-    "opciones": {
-      "A": "El Consejero de Presidencia.",
-      "B": "El Vicepresidente, Consejero de Cultura y Deporte y Portavoz del Gobierno.",
-      "C": "El Presidente de la Asamblea de Madrid.",
-      "D": "El Director General de Servicios Jurídicos."
-    },
-    "correcta": ""
-  },
-  {
-    "id": 13,
-    "pregunta": "Los Secretarios Generales Técnicos de las Consejerías:",
-    "opciones": {
-      "A": "Certificarán todos los actos que sean atribución específica del Consejero.",
-      "B": "Formularán el anteproyecto de Presupuesto anual de cada Consejería.",
-      "C": "Ejercen acciones en vía jurisdiccional en representación de aquellas.",
-      "D": "Todas son correctas."
-    },
-    "correcta": ""
-  }
-   {
-    "id": 14,
-    "pregunta": "¿Quién resuelve sobre enajenaciones de bienes afectos a una Consejería?",
-    "opciones": {
-      "A": "El propio Consejero, junto con el Consejero de Economía y Hacienda.",
-      "B": "El Consejero, con los límites que se fijen legal o reglamentariamente.",
-      "C": "El Consejero, con el límite previsto en la Ley de Presupuestos de la Comunidad.",
-      "D": "El Presidente de la Comunidad Autónoma."
-    },
-    "correcta": ""
-  },
-  {
-    "id": 15,
-    "pregunta": "En la Administración Autonómica, las unidades administrativas inferiores a Subdirección General se establecen mediante:",
-    "opciones": {
-      "A": "Ley orgánica.",
-      "B": "Ley ordinaria.",
-      "C": "Relaciones de puestos de trabajo.",
-      "D": "Decreto del Director General."
-    },
-    "correcta": ""
-  },
-  {
-    "id": 16,
-    "pregunta": "¿Qué regula el Título II de la Ley de Ordenación Sanitaria de la Comunidad de Madrid?",
-    "opciones": {
-      "A": "El Sistema Sanitario de la Comunidad de Madrid.",
-      "B": "El Servicio Madrileño de Salud.",
-      "C": "El Instituto de Salud Pública de la Comunidad de Madrid.",
-      "D": "Formación e investigación sanitaria."
-    },
-    "correcta": ""
-  },
-  {
-    "id": 17,
-    "pregunta": "La aprobación del Plan de Servicios propuesto por el Servicio Madrileño de Salud es competencia de:",
-    "opciones": {
-      "A": "La Presidencia de la Comunidad.",
-      "B": "La Consejería de Sanidad.",
-      "C": "Todos los Consejeros, mancomunadamente.",
-      "D": "No existe propuesta, lo aprueba el propio Servicio Madrileño."
-    },
-    "correcta": ""
+    "respuesta": "D"
   },
   {
     "id": 18,
     "pregunta": "En el Sistema Sanitario de nuestra Comunidad, el ciudadano tiene derecho a ser informado de los riesgos para su salud:",
     "opciones": {
-      "A": "Por escrito y previo informe de las Autoridades Sanitarias.",
-      "B": "Por escrito, con copia a las Autoridades Sanitarias.",
-      "C": "En términos comprensibles y ciertos.",
-      "D": "Con arreglo a los usos y costumbres de la Comunidad."
+      "a": "Por escrito y previo informe de las Autoridades Sanitarias.",
+      "b": "Por escrito, con copia a las Autoridades Sanitarias.",
+      "c": "En términos comprensibles y ciertos.",
+      "d": "Con arreglo a los usos y costumbres de la Comunidad."
     },
-    "correcta": ""
+    "respuesta": "C"
   },
   {
     "id": 19,
     "pregunta": "Corresponde a la Consejería de Sanidad:",
     "opciones": {
-      "A": "El ejercicio de la Autoridad Sanitaria.",
-      "B": "La elaboración del Plan de Salud.",
-      "C": "La aprobación de su estructura orgánica.",
-      "D": "La aprobación de la estructura orgánica del Servicio Madrileño de Salud."
+      "a": "El ejercicio de la Autoridad Sanitaria.",
+      "b": "La elaboración del Plan de Salud.",
+      "c": "La aprobación de su estructura orgánica.",
+      "d": "La aprobación de la estructura orgánica del Servicio Madrileño de Salud."
     },
-    "correcta": ""
+    "respuesta": "A"
   },
   {
     "id": 20,
     "pregunta": "El nombramiento y cese del Director General del Servicio Madrileño de Salud, compete a:",
     "opciones": {
-      "A": "El Consejo de Gobierno de la Comunidad.",
-      "B": "La Presidencia de la Comunidad.",
-      "C": "La Consejería de Sanidad.",
-      "D": "Ninguna es correcta."
+      "a": "El Consejo de Gobierno de la Comunidad.",
+      "b": "La Presidencia de la Comunidad.",
+      "c": "La Consejería de Sanidad.",
+      "d": "Ninguna es correcta."
     },
-    "correcta": ""
+    "respuesta": "A"
   },
   {
     "id": 21,
     "pregunta": "El Título IV de la Ley de Ordenación Sanitaria de la Comunidad de Madrid, se denomina:",
     "opciones": {
-      "A": "Del Servicio Madrileño de Salud.",
-      "B": "Derechos y deberes de los ciudadanos.",
-      "C": "Formación e investigación sanitaria.",
-      "D": "De la iniciativa privada sanitaria."
+      "a": "Del Servicio Madrileño de Salud.",
+      "b": "Derechos y deberes de los ciudadanos.",
+      "c": "Formación e investigación sanitaria.",
+      "d": "De la iniciativa privada sanitaria."
     },
-    "correcta": ""
+    "respuesta": "B"
   },
   {
     "id": 22,
     "pregunta": "La libertad de elección se ejercerá en los casos de menores de edad no emancipados o incapacitados:",
     "opciones": {
-      "A": "Por sus padres, tutores o representantes legales.",
-      "B": "Solo por sus padres.",
-      "C": "Los menores la ejercerán a través de sus padres y los emancipados por su representante.",
-      "D": "Ninguna es correcta."
+      "a": "Por sus padres, tutores o representantes legales.",
+      "b": "Solo por sus padres.",
+      "c": "Los menores la ejercerán a través de sus padres y los emancipados por su representante.",
+      "d": "Ninguna es correcta."
     },
-    "correcta": ""
+    "respuesta": "A"
   },
   {
     "id": 23,
     "pregunta": "¿La elección de médico de familia, médico especialista, pediatra o enfermero podrá ser denegada?",
     "opciones": {
-      "A": "Sí, mediante resolución debidamente motivada, por causas organizativas o de salvaguarda de la buena relación médico-paciente.",
-      "B": "La denegación solo podrá tramitarse previa petición del profesional sanitario debidamente justificada.",
-      "C": "No, salvo por causas de fuerza mayor.",
-      "D": "Son correctas a) y b)."
+      "a": "Sí, mediante resolución debidamente motivada, por causas organizativas o de salvaguarda de la buena relación médico-paciente.",
+      "b": "La denegación solo podrá tramitarse previa petición del profesional sanitario debidamente justificada.",
+      "c": "No, salvo por causas de fuerza mayor.",
+      "d": "Son correctas a) y b)."
     },
-    "correcta": ""
+    "respuesta": "D"
   },
   {
     "id": 24,
     "pregunta": "¿Quiénes podrán ejercer la libertad de elección?",
     "opciones": {
-      "A": "Todos los madrileños, independientemente de su lugar de residencia.",
-      "B": "Los madrileños y los extranjeros con residencia en Madrid.",
-      "C": "Los residentes en la Comunidad de Madrid.",
-      "D": "Cualquiera que acredite dos años de residencia en Madrid."
+      "a": "Todos los madrileños, independientemente de su lugar de residencia.",
+      "b": "Los madrileños y los extranjeros con residencia en Madrid.",
+      "c": "Los residentes en la Comunidad de Madrid.",
+      "d": "Cualquiera que acredite dos años de residencia en Madrid."
     },
-    "correcta": ""
+    "respuesta": "C"
   },
   {
     "id": 25,
-    "pregunta": "El objeto de la Ley 6/2009, de libertad de elección es:",
+    "pregunta": "El objeto de la Ley 6/2009 de libertad de elección es:",
     "opciones": {
-      "A": "Regular el ejercicio de la libertad de elección de médico de familia, pediatra y enfermero en atención primaria.",
-      "B": "Regular el ejercicio de la libertad de elección de médico y hospital en atención especializada.",
-      "C": "Regular el ejercicio de la libertad de elección de la atención domiciliaria y las urgencias.",
-      "D": "Son correctas a) y b)."
+      "a": "Regular el ejercicio de la libertad de elección de médico de familia, pediatra y enfermero en atención primaria.",
+      "b": "Regular el ejercicio de la libertad de elección de médico y hospital en atención especializada.",
+      "c": "Regular el ejercicio de la libertad de elección de la atención domiciliaria y las urgencias.",
+      "d": "Son correctas a) y b."
     },
-    "correcta": ""
+    "respuesta": "D"
   }
 ]
