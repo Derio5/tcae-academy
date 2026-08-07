@@ -1,0 +1,35 @@
+[
+  {
+    "id": 1,
+    "pregunta": "¿Cuál es el artículo de la Constitución Española que reconoce el derecho a la protección de la salud?",
+    "opciones": {
+      "A": "Artículo 14",
+      "B": "Artículo 43",
+      "C": "Artículo 27",
+      "D": "Artículo 45"
+    },
+    "correcta": "B"
+  },
+  {
+    "id": 2,
+    "pregunta": "¿Qué ley regula la autonomía del paciente?",
+    "opciones": {
+      "A": "Ley 16/2003",
+      "B": "Ley 14/1986",
+      "C": "Ley 41/2002",
+      "D": "Ley 55/2003"
+    },
+    "correcta": "C"
+  },
+  {
+    "id": 3,
+    "pregunta": "¿Qué ley es la Ley General de Sanidad?",
+    "opciones": {
+      "A": "Ley 14/1986",
+      "B": "Ley 16/2003",
+      "C": "Ley 41/2002",
+      "D": "Ley 44/2003"
+    },
+    "correcta": "A"
+  }
+]
