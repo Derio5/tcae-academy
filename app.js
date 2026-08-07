@@ -9,13 +9,33 @@ boton.addEventListener("click", cargarTema);
 
 async function cargarTema() {
 
-    const respuesta = await fetch("data/tema01.json");
-    preguntas = await respuesta.json();
+    const tema = document.getElementById("tema").value;
 
-    indice = 0;
-    aciertos = 0;
+    try {
 
-    mostrarPregunta();
+        const respuesta = await fetch(`data/${tema}.json`);
+
+        if (!respuesta.ok) {
+            throw new Error("No se pudo cargar el tema.");
+        }
+
+        preguntas = await respuesta.json();
+
+        indice = 0;
+        aciertos = 0;
+
+        mostrarPregunta();
+
+    } catch (error) {
+
+        contenedor.innerHTML = `
+            <div class="card">
+                <h2>Error</h2>
+                <p>No se pudo cargar el examen.</p>
+                <p>${error.message}</p>
+            </div>
+        `;
+    }
 
 }
 
@@ -25,6 +45,7 @@ function mostrarPregunta() {
 
     contenedor.innerHTML = `
         <div class="card">
+
             <h2>Pregunta ${indice + 1} de ${preguntas.length}</h2>
 
             <p style="margin:20px 0;font-size:20px;">
@@ -35,6 +56,7 @@ function mostrarPregunta() {
             ${crearBoton("B", pregunta.opciones.B)}
             ${crearBoton("C", pregunta.opciones.C)}
             ${crearBoton("D", pregunta.opciones.D)}
+
         </div>
     `;
 
@@ -52,7 +74,11 @@ function crearBoton(letra, texto){
 
 function responder(respuesta){
 
-    if(respuesta === preguntas[indice].correcta){
+    // Comparación sin importar mayúsculas/minúsculas
+    if (
+        respuesta.toUpperCase() ===
+        preguntas[indice].correcta.toUpperCase()
+    ) {
         aciertos++;
     }
 
@@ -69,9 +95,13 @@ function responder(respuesta){
 
                 <h1>${nota}/10</h1>
 
-                <p>Aciertos: ${aciertos}</p>
+                <p><strong>Aciertos:</strong> ${aciertos}</p>
 
-                <p>Errores: ${preguntas.length-aciertos}</p>
+                <p><strong>Errores:</strong> ${preguntas.length - aciertos}</p>
+
+                <button onclick="location.reload()">
+                    Volver al inicio
+                </button>
 
             </div>
         `;
