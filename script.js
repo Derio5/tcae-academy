@@ -7,8 +7,13 @@ let indice = 0;
 let aciertos = 0;
 let respuestasUsuario = [];
 
-// Iniciar examen
+
+// ========================================
+// INICIAR EXAMEN
+// ========================================
+
 boton.addEventListener("click", cargarTema);
+
 
 async function cargarTema() {
 
@@ -16,10 +21,14 @@ async function cargarTema() {
 
     try {
 
-        const respuesta = await fetch(`data/${temaSeleccionado}.json`);
+        const respuesta = await fetch(
+            `data/${temaSeleccionado}.json`
+        );
 
         if (!respuesta.ok) {
-            throw new Error("No se pudo cargar el archivo JSON");
+            throw new Error(
+                "No se pudo cargar el archivo JSON"
+            );
         }
 
         preguntas = await respuesta.json();
@@ -36,30 +45,53 @@ async function cargarTema() {
 
         contenedor.innerHTML = `
             <div class="card">
+
                 <h2>Error</h2>
-                <p>No se pudo cargar el test.</p>
-                <p>Comprueba que el archivo JSON exista dentro de la carpeta <strong>data</strong>.</p>
+
+                <p>
+                    No se pudo cargar el test.
+                </p>
+
+                <p>
+                    Comprueba que el archivo
+                    <strong>${temaSeleccionado}.json</strong>
+                    exista dentro de la carpeta
+                    <strong>data</strong>.
+                </p>
+
             </div>
         `;
     }
 }
 
 
-// Mostrar pregunta
+// ========================================
+// MOSTRAR PREGUNTA
+// ========================================
+
 function mostrarPregunta() {
 
     if (indice >= preguntas.length) {
+
         mostrarResultado();
+
         return;
     }
 
     const pregunta = preguntas[indice];
 
+    const opciones = Object.entries(
+        pregunta.opciones
+    );
+
     contenedor.innerHTML = `
 
         <div class="card">
 
-            <h2>Pregunta ${indice + 1} de ${preguntas.length}</h2>
+            <h2>
+                Pregunta ${indice + 1}
+                de ${preguntas.length}
+            </h2>
 
             <p class="pregunta">
                 ${pregunta.pregunta}
@@ -67,12 +99,14 @@ function mostrarPregunta() {
 
             <div class="opciones">
 
-                ${pregunta.opciones.map((opcion, i) => `
-                    
-                    <button 
+                ${opciones.map(([letra, texto]) => `
+
+                    <button
                         class="opcion"
-                        onclick="responder(${i})">
-                        ${String.fromCharCode(65 + i)}) ${opcion}
+                        onclick="responder('${letra}')">
+
+                        ${letra}) ${texto}
+
                     </button>
 
                 `).join("")}
@@ -84,24 +118,36 @@ function mostrarPregunta() {
 }
 
 
-// Registrar respuesta
+// ========================================
+// REGISTRAR RESPUESTA
+// ========================================
+
 function responder(opcionSeleccionada) {
 
     const pregunta = preguntas[indice];
 
-    const respuestaCorrecta = obtenerRespuestaCorrecta(pregunta);
+    const respuestaCorrecta =
+        pregunta.correcta;
 
-    const correcta = opcionSeleccionada === respuestaCorrecta;
+    const correcta =
+        opcionSeleccionada === respuestaCorrecta;
 
     if (correcta) {
         aciertos++;
     }
 
     respuestasUsuario.push({
+
         pregunta: pregunta,
-        respuestaUsuario: opcionSeleccionada,
-        respuestaCorrecta: respuestaCorrecta,
-        correcta: correcta
+
+        respuestaUsuario:
+            opcionSeleccionada,
+
+        respuestaCorrecta:
+            respuestaCorrecta,
+
+        correcta:
+            correcta
     });
 
     indice++;
@@ -110,73 +156,47 @@ function responder(opcionSeleccionada) {
 }
 
 
-// Obtener respuesta correcta
-function obtenerRespuestaCorrecta(pregunta) {
+// ========================================
+// MOSTRAR RESULTADO
+// ========================================
 
-    let respuesta = pregunta.respuesta;
-
-    // Si el JSON utiliza respuestaCorrecta
-    if (respuesta === undefined) {
-        respuesta = pregunta.respuestaCorrecta;
-    }
-
-    // Si viene como letra: A, B, C, D
-    if (typeof respuesta === "string") {
-
-        const letra = respuesta.trim().toUpperCase();
-
-        if (["A", "B", "C", "D"].includes(letra)) {
-            return letra.charCodeAt(0) - 65;
-        }
-
-        // Si viene como número escrito
-        if (!isNaN(respuesta)) {
-            respuesta = Number(respuesta);
-        }
-    }
-
-    return Number(respuesta);
-}
-
-
-// Mostrar resultado final
 function mostrarResultado() {
 
-    const porcentaje = Math.round((aciertos / preguntas.length) * 100);
+    const porcentaje =
+        Math.round(
+            (aciertos / preguntas.length) * 100
+        );
 
     contenedor.innerHTML = `
 
         <div class="card resultado">
 
-            <h2>Resultado del test</h2>
+            <h2>
+                Resultado del test
+            </h2>
 
             <div class="puntuacion">
+
                 ${aciertos} / ${preguntas.length}
+
             </div>
 
             <p>
-                Has obtenido un <strong>${porcentaje}%</strong> de aciertos.
+
+                Has obtenido un
+                <strong>${porcentaje}%</strong>
+                de aciertos.
+
             </p>
 
-            ${
-                aciertos === preguntas.length
-                ? `
-                    <div class="todo-correcto">
-                        🎉 ¡Excelente! Has respondido correctamente
-                        todas las preguntas.
-                    </div>
-                `
-                : `
-                    <h2 class="titulo-errores">
-                        Preguntas que has fallado
-                    </h2>
+            <div id="revisionErrores"></div>
 
-                    <div id="errores"></div>
-                `
-            }
+            <br>
 
             <button onclick="reiniciarTest()">
+
                 Volver a realizar el test
+
             </button>
 
         </div>
@@ -186,109 +206,219 @@ function mostrarResultado() {
 }
 
 
-// Mostrar preguntas incorrectas
+// ========================================
+// MOSTRAR PREGUNTAS FALLADAS
+// ========================================
+
 function mostrarErrores() {
 
-    const contenedorErrores = document.getElementById("errores");
+    const contenedorErrores =
+        document.getElementById(
+            "revisionErrores"
+        );
 
     if (!contenedorErrores) {
         return;
     }
 
-    const errores = respuestasUsuario.filter(
-        respuesta => !respuesta.correcta
-    );
+    const errores =
+        respuestasUsuario.filter(
+            respuesta => !respuesta.correcta
+        );
+
+
+    // ====================================
+    // TODAS CORRECTAS
+    // ====================================
 
     if (errores.length === 0) {
-        return;
-    }
 
-    contenedorErrores.innerHTML = errores.map((error, posicion) => {
+        contenedorErrores.innerHTML = `
 
-        const pregunta = error.pregunta;
+            <div class="todo-correcto">
 
-        const letraUsuario =
-            String.fromCharCode(65 + error.respuestaUsuario);
+                🎉 ¡Excelente!
 
-        const letraCorrecta =
-            String.fromCharCode(65 + error.respuestaCorrecta);
-
-        const explicacion =
-            pregunta.explicacion ||
-            "No se ha añadido una explicación para esta pregunta.";
-
-        const referencia =
-            pregunta.referencia ||
-            "";
-
-        return `
-
-            <div class="error-pregunta">
-
-                <h3>
-                    Pregunta ${respuestasUsuario.indexOf(error) + 1}
-                </h3>
-
-                <p class="texto-pregunta">
-                    <strong>${pregunta.pregunta}</strong>
+                <p>
+                    Has respondido correctamente
+                    todas las preguntas.
                 </p>
-
-                <div class="respuesta-incorrecta">
-
-                    ❌ <strong>Tu respuesta:</strong>
-
-                    <br>
-
-                    ${letraUsuario}) 
-                    ${pregunta.opciones[error.respuestaUsuario]}
-
-                </div>
-
-                <div class="respuesta-correcta">
-
-                    ✅ <strong>Respuesta correcta:</strong>
-
-                    <br>
-
-                    ${letraCorrecta}) 
-                    ${pregunta.opciones[error.respuestaCorrecta]}
-
-                </div>
-
-                <div class="explicacion">
-
-                    <strong>📖 Explicación:</strong>
-
-                    <p>
-                        ${explicacion}
-                    </p>
-
-                    ${
-                        referencia
-                        ? `
-                            <p class="referencia">
-                                <strong>Referencia:</strong>
-                                ${referencia}
-                            </p>
-                        `
-                        : ""
-                    }
-
-                </div>
 
             </div>
 
         `;
 
-    }).join("");
+        return;
+    }
+
+
+    // ====================================
+    // TÍTULO DE ERRORES
+    // ====================================
+
+    let html = `
+
+        <hr>
+
+        <h2>
+            Preguntas que has fallado
+        </h2>
+
+    `;
+
+
+    // ====================================
+    // RECORRER ERRORES
+    // ====================================
+
+    errores.forEach(error => {
+
+        const pregunta =
+            error.pregunta;
+
+        const numeroPregunta =
+            pregunta.id;
+
+        const letraUsuario =
+            error.respuestaUsuario;
+
+        const letraCorrecta =
+            error.respuestaCorrecta;
+
+
+        const textoUsuario =
+            pregunta.opciones[
+                letraUsuario
+            ];
+
+
+        const textoCorrecto =
+            pregunta.opciones[
+                letraCorrecta
+            ];
+
+
+        /*
+         * Estas dos propiedades todavía
+         * no existen en tu JSON.
+         *
+         * Por ahora mostramos un mensaje
+         * provisional.
+         */
+
+        const explicacion =
+            pregunta.explicacion ||
+            "La explicación de esta pregunta todavía no ha sido añadida.";
+
+
+        const referencia =
+            pregunta.referencia ||
+            "";
+
+
+        html += `
+
+            <div class="error-pregunta">
+
+                <h3>
+                    Pregunta ${numeroPregunta}
+                </h3>
+
+
+                <p>
+
+                    <strong>
+                        ${pregunta.pregunta}
+                    </strong>
+
+                </p>
+
+
+                <p>
+
+                    ❌
+                    <strong>
+                        Tu respuesta:
+                    </strong>
+
+                    <br>
+
+                    ${letraUsuario})
+                    ${textoUsuario}
+
+                </p>
+
+
+                <p>
+
+                    ✅
+                    <strong>
+                        Respuesta correcta:
+                    </strong>
+
+                    <br>
+
+                    ${letraCorrecta})
+                    ${textoCorrecto}
+
+                </p>
+
+
+                <div class="explicacion">
+
+                    <strong>
+                        📖 Explicación:
+                    </strong>
+
+                    <p>
+                        ${explicacion}
+                    </p>
+
+                </div>
+
+
+                ${
+                    referencia
+                    ?
+                    `
+                        <p>
+
+                            <strong>
+                                📚 Referencia legal:
+                            </strong>
+
+                            ${referencia}
+
+                        </p>
+                    `
+                    :
+                    ""
+                }
+
+
+            </div>
+
+            <hr>
+
+        `;
+    });
+
+
+    contenedorErrores.innerHTML =
+        html;
 }
 
 
-// Reiniciar test
+// ========================================
+// REINICIAR TEST
+// ========================================
+
 function reiniciarTest() {
 
     indice = 0;
+
     aciertos = 0;
+
     respuestasUsuario = [];
 
     mostrarPregunta();
